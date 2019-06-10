@@ -2,7 +2,7 @@ sudo: required
 services:
     - docker
 
-before_istall:
+before_install:
     - docker build -t felipemps/react-test -f ./client/dev.Dockerfile ./client
 
 script:
